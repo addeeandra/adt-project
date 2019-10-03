@@ -8,11 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_btn_primary_gradient"
-        android:foreground="?attr/selectableItemBackground"
-        android:text="Login"
-        android:textColor="#FFF" />
+        style="@style/AppTheme.ButtonPrimaryGradient"
+        android:text="Login" />
 
 </LinearLayout>
