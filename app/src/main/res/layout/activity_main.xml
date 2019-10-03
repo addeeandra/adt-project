@@ -9,6 +9,6 @@
 
     <Button
         style="@style/AppTheme.ButtonPrimaryGradient"
-        android:text="Login" />
+        android:text="@string/login" />
 
 </LinearLayout>
