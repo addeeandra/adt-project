@@ -7,8 +7,19 @@
     android:padding="32dp"
     tools:context=".MainActivity">
 
+    <EditText
+        style="@style/AppTheme.InputWhiteBordered"
+        android:hint="@string/hint_username" />
+
+    <EditText
+        style="@style/AppTheme.InputWhiteBordered"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
     <Button
         style="@style/AppTheme.ButtonPrimaryGradient"
+        android:layout_marginTop="16dp"
         android:text="@string/login" />
 
 </LinearLayout>

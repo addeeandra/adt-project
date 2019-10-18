@@ -2,4 +2,6 @@
     <string name="app_name">AplikasiKu</string>
 
     <string name="login">Login</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
 </resources>
